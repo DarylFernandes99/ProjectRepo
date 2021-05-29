@@ -1,0 +1,264 @@
+nav{
+  background-color: rgb(218, 42, 72);
+  width: 100%;
+}
+
+.dark-nav{
+  background-color: black !important;
+  color: white;
+}
+
+.dark-nav li:hover{
+  background-color: rgb(37, 37, 37);
+}
+
+.dark-nav .logo:hover{
+  background-color: black !important;
+}
+
+a{
+  text-decoration: none;
+}
+
+a:hover{
+  text-decoration: none !important;
+}
+
+.link-custom li{
+  text-decoration: none;
+  margin: 0px;
+  height: 100%;
+}
+
+ul{
+  list-style: none;
+  color: white;
+  display: flex;
+  padding-left: 0px;
+  margin-bottom: 0px !important;
+}
+
+li{
+  font-size: 25px;
+  color: white;
+  padding: 1rem 2.5rem 1rem 2.5rem;
+}
+
+li:hover{
+  background-color: rgb(180, 30, 55);
+  text-decoration: none;
+}
+
+.logo img{
+  height: 50px;
+  width: auto;
+}
+
+.logo:hover{
+  background-color: rgb(218, 42, 72);
+}
+
+.switch {
+  position: relative;
+  display: inline-block;
+  width: 60px;
+  height: 34px;
+  margin-left: 1.5rem;
+  margin-right: 1.5rem;
+}
+
+.switch input {
+  opacity: 0;
+  width: 0;
+  height: 0;
+}
+
+/* The slider */
+.slider {
+  position: absolute;
+  cursor: pointer;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: #ccc;
+  -webkit-transition: .4s;
+  transition: .4s;
+}
+
+.slider:before {
+  position: absolute;
+  content: "";
+  height: 26px;
+  width: 26px;
+  left: 4px;
+  bottom: 4px;
+  background-color: white;
+  -webkit-transition: .4s;
+  transition: .4s;
+}
+
+input:checked + .slider {
+  background-color: #2196F3;
+}
+
+input:focus + .slider {
+  box-shadow: 0 0 1px #2196F3;
+}
+
+input:checked + .slider:before {
+  -webkit-transform: translateX(26px);
+  -ms-transform: translateX(26px);
+  transform: translateX(26px);
+}
+
+/* Rounded sliders */
+.slider.round {
+  border-radius: 34px;
+}
+
+.slider.round:before {
+  border-radius: 50%;
+}
+
+.dark-mode-toggle:hover{
+  background-color: rgb(180, 30, 55);
+  height: 100%;
+}
+
+.navbar-mobile{
+  display: none;
+}
+
+.navbar-expanded{
+  display: none;
+}
+
+@media only screen and (max-width: 430px){
+  .mobile-logo img{
+    min-height: 4rem;
+    min-width: 100%;
+  }
+
+  .mobile-link{
+    width: 100%;
+  }
+
+  .mobile-btn{
+    font-size: 15px;
+    height: 0px;
+    width: 0px;
+  }
+
+  .navbar-expanded{
+    display: block;
+  }
+
+  input:checked + .slider:before {
+    -webkit-transform: translateX(20px);
+    -ms-transform: translateX(20px);
+    transform: translateX(20px);
+  }
+}
+
+@media only screen and (max-width: 885px) {
+
+  .navbar-mobile{
+    display: block;
+  }
+
+  .navbar-expanded{
+    display: block;
+  }
+
+  .navbar-custom{
+    display: none;
+  }
+
+  nav{
+    background-color: rgb(218, 42, 72);
+    width: 100%;
+  }
+  
+  .mobile-logo{
+    height: 5rem;
+    width: 100%;
+    max-width: 300px;
+  }
+
+  .dark-nav .mobile-logo:hover{
+    background-color: black !important;
+   }
+
+  .mobile-btn{
+    background-color: rgb(218, 42, 72);
+    color: white;
+    border: 0px;
+    padding: 0.5rem 1rem 0.5rem 1rem;
+    font-size: 25px;
+  }
+
+  li:hover{
+    background-color: rgb(218, 42, 72);
+  }
+
+  .mobile-btn:hover{
+    background-color: rgb(218, 42, 72);
+  }
+
+  .slider:before {
+    position: absolute;
+    content: "";
+    height: 140px;
+    width: 14px;
+    left: 2px;
+    bottom: 2px;
+    background-color: white;
+    -webkit-transition: .4s;
+    transition: .4s;
+  }
+  
+  input:checked + .slider:before {
+    -webkit-transform: translateX(20px);
+    -ms-transform: translateX(20px);
+    transform: translateX(20px);
+  }
+}
+
+
+@media only screen and (max-width: 1200px) {
+  li{
+    font-size: 17px;
+  }
+
+  .logo img{
+    height: 30px;
+    width: auto;
+  }
+
+  .switch {
+    width: 40px;
+    height: 24px;
+    margin-left: 0.5rem;
+    margin-right: 0.5rem;
+  }
+
+  .slider:before {
+    position: absolute;
+    content: "";
+    height: 18px;
+    width: 18px;
+    left: 2px;
+    bottom: 2px;
+    background-color: white;
+    -webkit-transition: .4s;
+    transition: .4s;
+  }
+
+  input:checked + .slider:before {
+    -webkit-transform: translateX(18px);
+    -ms-transform: translateX(18px);
+    transform: translateX(18px);
+  }
+
+}

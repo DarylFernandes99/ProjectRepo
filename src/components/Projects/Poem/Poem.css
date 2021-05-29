@@ -1,0 +1,41 @@
+.output-text{
+ resize: none;
+ font-size: 15px;
+ width: 100%;
+ height: auto;
+}
+
+.form-control{
+ margin: auto auto auto 0rem !important;
+ min-width: 100% !important;
+ padding: auto;
+}
+
+.save-btn{
+ margin: auto;
+ margin-bottom: 2rem;
+ padding: auto;
+ color: white;
+ background-color: #ff6300;
+ border: 1px solid #ff6300;
+ border-radius: 2rem;
+}
+
+.save-btn:hover{
+ color: white;
+}
+
+h4{
+ margin: auto;
+ font-size: 2rem;
+}
+
+@media screen and (max-width: 425px){
+ .save-btn{
+  font-size: 1rem;
+ }
+
+ .form-control{
+  width: auto !important;
+ }
+}

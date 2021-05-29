@@ -1,0 +1,30 @@
+.container-fluid{
+  padding: 0px !important;
+  margin-bottom: 0rem;
+}
+
+.dark-mode{
+  background-color: rgb(37, 37, 37);
+  color: white;
+}
+
+.submit-success{
+ color: green;
+ margin-top: 1rem;
+ font-family: Arial, Helvetica, sans-serif;
+ font-size: 25px;
+}
+
+.submit-fail{
+ color: rgb(236, 49, 49);
+ margin-top: 1rem;
+ font-family: Arial, Helvetica, sans-serif;
+ font-size: 25px;
+}
+
+.footer-custom{
+  bottom: 0px;
+  margin-bottom: 0rem;
+  left: 0px;
+  width: 100%;
+}

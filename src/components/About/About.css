@@ -1,0 +1,151 @@
+.card{
+ margin-top: 3rem;
+ padding: 2rem 2rem 2rem 2rem !important;
+ width: auto;
+ min-height: 40rem;
+}
+
+.dark-card{
+  background-color: #363636;
+  color: white;
+}
+
+.profile-pic img{
+ border-radius: 50%;
+ border: 4px solid rgb(251, 136, 5); 
+ height: 200px;
+ width: 200px;
+ padding: 1px;
+}
+
+.profile-pic-dark img{
+ border: 4px solid rgb(212, 122, 18); 
+}
+
+
+.dev-name{
+ color: #ff6300;
+ font-family: Arial, Helvetica, sans-serif;
+ margin: 1rem;
+ font-weight: 600;
+}
+
+.dev-name-dark{
+ color: white;
+}
+
+.dev-role{
+ color: teal;
+ font-family: Georgia, 'Times New Roman', Times, serif;
+ font-size: 15px;
+}
+
+.dev-role-dark{
+ color: #E0FF4F;
+}
+
+.quote-right{
+ margin-right: 15px;
+}
+
+.quote-left{
+ margin-left: 15px;
+}
+
+.dev-description{
+ font-size: 18px;
+ margin-top: 2rem;
+ line-height: 35px;
+}
+
+.dev-icons{
+ margin: auto;
+ padding: 0px;
+}
+
+.icon-list{
+ list-style: none;
+ padding-left: 0px;
+}
+
+.icon-list li{
+ padding: 1rem 2rem 1rem 0rem;
+}
+
+.icon-list li:hover{
+ background-color: white ;
+ font-size: 40px;
+ padding: auto;
+}
+
+
+.icon-list-dark li:hover{
+ background-color: #363636;
+}
+
+.icon{
+ color: black;
+}
+
+.icon-list-dark .icon:hover{
+ background-color: #363636;
+ color: rgb(251, 136, 5);
+}
+
+.icon-list-dark .icon{
+	color: white;
+}
+
+@media screen and (max-width: 1000px){
+ 
+ .card{
+  max-width: 500px;
+  margin: 3rem auto;
+ }
+
+}
+
+@media screen and (max-width: 400px){
+ .dev-name{
+  font-size: 1.5rem;
+ }
+
+ .profile-pic img{
+ border-radius: 50%;
+ border: 5px solid rgb(251, 136, 5); 
+ height: 150px;
+ width: 150px;
+ padding: 1px;
+}
+
+ .card{
+  max-width: 350px;
+  height: auto;
+ }
+
+ .dev-role{
+  font-size: 0.75rem;
+ }
+
+ .dev-description{
+  font-size: 14px;
+ }
+
+ .dev-icons{
+  margin: auto;
+ }
+
+ .icon-list{
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+ }
+
+ .icon-list li:hover{
+  font-size: 30px;
+ }
+
+ .icon-list li{
+   font-size: 20px;
+  }
+
+}

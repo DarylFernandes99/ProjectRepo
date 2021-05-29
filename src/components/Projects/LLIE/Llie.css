@@ -1,0 +1,202 @@
+.page-heading{
+ text-align: center;
+ font-family:Arial, Helvetica, sans-serif;
+ font-weight: bold;
+ color: rgb(46, 46, 46);
+ margin-top: 5rem;
+}
+
+h4{
+  margin-top: 2rem;
+}
+
+.fade-out{
+ opacity: 50%;
+}
+
+.upload-box{
+ padding: 3rem;
+ margin-bottom: 2rem;
+}
+
+.upload-arrow{
+ display: block;
+ font-size: 50px;
+ margin: 8rem 0rem 2rem 3rem;
+}
+
+.upload-arrow-mobile{
+ display: none;
+}
+
+.upload-placeholder{
+ border: 1px solid black;
+ padding-top: 7rem;
+ height: 286px;
+ width: 286px;
+}
+
+.upload-placeholder-dark{
+  border: 1px solid white;
+}
+
+.upload-icon{
+ font-size: 50px;
+}
+
+.displayImage{
+ width: 286px !important;
+ height: 286px !important;
+}
+
+.grayscale{
+ filter: grayscale(100%);
+}
+
+.project-intro{
+ font-size: 18;
+ font-family: Arial, Helvetica, sans-serif;
+ color: rgb(54, 51, 51);
+ margin-bottom: 5rem;
+}
+
+.btn-upload{
+ background-color: rgb(218, 42, 72);
+ font-size: 25px;
+ width: 400px;
+ border: 0px;
+ padding: 1rem;
+ color: white;
+ border-radius: 2rem;
+}
+
+.btn-upload:hover{
+  width: 415px;
+}
+
+.btn-upload-dark{
+ background-color: rgb(255,99,0) !important;
+  
+}
+
+.btn-save{
+ background-color: rgb(218, 42, 72);
+ font-size: 25px;
+ width: 400px;
+ border: 0px;
+ margin-top: 1rem;
+ color: white;
+ border-radius: 2rem;
+}
+
+.btn-save:hover{
+  width: 415px;
+}
+
+.btn-save-dark{
+  background-color: rgb(255,99,0) !important;
+}
+
+/* Animations */
+
+.spinner {
+    animation: spin infinite 2s linear;
+    margin: auto;
+    /*You can increase or decrease the timer (5s) to 
+     increase or decrease the speed of the spinner*/
+  }
+
+@keyframes spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+@media screen and (max-width: 1200px){
+ .upload-arrow{
+  display: block;
+  margin: 8rem 0rem 0rem 1.25rem;
+ }
+
+ .upload-placeholder{
+  width: 286px;
+  margin: auto;
+ }
+
+ .upload-placeholder{
+  padding: 6rem 0rem 6rem 0rem;
+ }
+}
+
+@media screen and (max-width: 991px) {
+ .btn-upload{ 
+  font-size: 20px;
+  width: 300px;
+ }
+
+ .btn-save{
+  font-size: 20px;
+  width: 300px;
+ }
+
+ .upload-arrow{
+  display: none;
+ }
+
+ .upload-arrow-mobile{
+  display: block;
+  font-size: 50px;
+  margin: 3rem auto 3rem auto;
+ }
+
+ .upload-placeholder{
+  width: 286px;
+  margin: auto;
+ }
+
+}
+
+
+@media screen and (max-width: 750px){
+ .upload-arrow-mobile{
+  margin: 3rem auto 3rem auto;
+ }
+}
+
+
+@media screen and (max-width: 575px) {
+ .btn-upload{ 
+  font-size: 20px;
+  width: 250px;
+ }
+
+ .btn-save{ 
+  font-size: 20px;
+  width: 250px;
+ }
+
+ .upload-arrow-mobile{
+  font-size: 40px;
+  margin: 3rem auto 3rem auto;
+ }
+
+ .displayImage{
+  height: 200px;
+  width: 200px;
+ }
+
+ .upload-box{
+  padding: 0px;
+ }
+
+
+ .page-heading{
+ font-size: 2rem;
+  color: rgb(46, 46, 46);
+ margin-top: 5rem;
+}
+
+}
