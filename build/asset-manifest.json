@@ -1,0 +1,28 @@
+{
+  "files": {
+    "main.css": "/static/css/main.695e7cf3.chunk.css",
+    "main.js": "/static/js/main.a8594832.chunk.js",
+    "main.js.map": "/static/js/main.a8594832.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.187dda59.js",
+    "runtime-main.js.map": "/static/js/runtime-main.187dda59.js.map",
+    "static/js/2.0ff9b096.chunk.js": "/static/js/2.0ff9b096.chunk.js",
+    "static/js/2.0ff9b096.chunk.js.map": "/static/js/2.0ff9b096.chunk.js.map",
+    "static/js/3.44fd26ac.chunk.js": "/static/js/3.44fd26ac.chunk.js",
+    "static/js/3.44fd26ac.chunk.js.map": "/static/js/3.44fd26ac.chunk.js.map",
+    "index.html": "/index.html",
+    "static/css/main.695e7cf3.chunk.css.map": "/static/css/main.695e7cf3.chunk.css.map",
+    "static/js/2.0ff9b096.chunk.js.LICENSE.txt": "/static/js/2.0ff9b096.chunk.js.LICENSE.txt",
+    "static/media/avatar_daryl.94825575.jpg": "/static/media/avatar_daryl.94825575.jpg",
+    "static/media/avatar_joel.778952b8.jpg": "/static/media/avatar_joel.778952b8.jpg",
+    "static/media/avatar_lloyd.f8e75549.jpg": "/static/media/avatar_lloyd.f8e75549.jpg",
+    "static/media/logo.88860f3d.svg": "/static/media/logo.88860f3d.svg",
+    "static/media/logo_keras.66f62f31.svg": "/static/media/logo_keras.66f62f31.svg",
+    "static/media/logo_tensorflow.2f88c734.svg": "/static/media/logo_tensorflow.2f88c734.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.187dda59.js",
+    "static/js/2.0ff9b096.chunk.js",
+    "static/css/main.695e7cf3.chunk.css",
+    "static/js/main.a8594832.chunk.js"
+  ]
+}
